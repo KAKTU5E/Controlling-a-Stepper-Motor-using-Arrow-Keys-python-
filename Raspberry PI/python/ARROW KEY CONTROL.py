@@ -35,11 +35,11 @@ def on_press(key):
     
         elif key == keyboard.Key.left:
             print("Motor2 Forward")
-            Motor2.TTurnStep(Dir='forward', steps=1, stepdelay=0.01)
+            Motor2.TTurnStep(Dir='forward', steps=10, stepdelay=0.001)
         
         elif key == keyboard.Key.right:
             print("Motor2 Backward")
-            Motor2.TurnStep(Dir='backward', steps=20, stepdelay=0.01)
+            Motor2.TurnStep(Dir='backward', steps=10, stepdelay=0.001)
         
         elif key == keyboard.Key.space:
             print("STOP")
